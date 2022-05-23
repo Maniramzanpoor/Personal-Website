@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Montserrat;
+  src: url("../../Content/Font/Montserrat-Bold.ttf");
+}
+@font-face {
+  font-family: Montserrat-Reg;
+  src: url("../../Content/Font/Montserrat-Regular.ttf");
+}
+
+body {
+  font-family: Montserrat;
+}
+
+.reg {
+  font-family: Montserrat-Reg;
+}
+
+html {
+  scroll-behavior: smooth;
+}
